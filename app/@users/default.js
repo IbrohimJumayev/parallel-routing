@@ -13,7 +13,7 @@ export default async function page() {
             key={u.id}
           >
             <img className="w-64" src="/user.png" />
-            <Link href={`/users/${u.id}`}>
+            <Link href={`/${u.id}`}>
               <p>{u.name.firstname}</p>
             </Link>
           </li>
